@@ -30,9 +30,9 @@ SECRET_KEY = 'django-insecure-hee38mdblj156m6!$y(y%!+b9&3(%nt+1@12g7gcy(8%!&1x93
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '192.168.0.197','http://localhost:3000','127.0.0.1','jarvisai-backend.onrender.com','http://localhost:4000'
-]
+
+
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
